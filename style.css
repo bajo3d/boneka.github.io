@@ -1,0 +1,137 @@
+body {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.satu {
+  background-color: rgb(34, 34, 34);
+  width: 400px;
+  height: 400px;
+  top: 10px;
+  left: 20px;
+  position: relative;
+  border-radius: 300px;
+  margin: 50px 200px;
+  z-index: 2;
+}
+
+.mata-kiri {
+  background-color: rgb(34, 34, 34);
+  border: 5px solid white;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 150px;
+  left: 90px;
+  border-radius: 30px;
+}
+
+.pupil {
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  margin-left: 5px;
+}
+
+.mata-kanan {
+  background-color: rgb(34, 34, 34);
+  border: 5px solid white;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 150px;
+  left: 250px;
+  border-radius: 30px;
+}
+
+.telinga-kiri {
+  width: 100px;
+  height: 100px;
+  border: 20px solid rgb(34, 34, 34);
+  background-color: rgb(255, 255, 255);
+  border-radius: 80px;
+  top: -37px;
+  right: -10px;
+  position: absolute;
+}
+
+.telinga-kanan {
+  width: 100px;
+  height: 100px;
+  border: 20px solid rgb(34, 34, 34);
+  background-color: rgb(255, 255, 255);
+  border-radius: 80px;
+  top: -37px;
+  left: -10px;
+  position: absolute;
+}
+
+.empat {
+  position: absolute;
+  background-color: rgb(136, 14, 14);
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  top: 250px;
+  left: 180px;
+}
+
+.badan {
+  background-color: white;
+  border: 100px solid rgb(34, 34, 34);
+  width: 300px;
+  height: 300px;
+  border-radius: 500px;
+  position: absolute;
+  left: -40px;
+  bottom: -400px;
+}
+
+.tangan-kiri {
+  background-color: rgb(34, 34, 34);
+  width: 190px;
+  height: 150px;
+  border-radius: 500px;
+  position: absolute;
+  left: -170px;
+  top: -100px;
+  z-index: 3;
+}
+
+.tangan-kanan {
+  background-color: rgb(34, 34, 34);
+  width: 190px;
+  height: 150px;
+  border-radius: 500px;
+  position: absolute;
+  right: -150px;
+  top: -100px;
+  z-index: 3;
+}
+
+.kaki-kiri {
+  background-color: white;
+  width: 130px;
+  height: 130px;
+  border: 60px solid rgb(34, 34, 34);
+  border-radius: 500px;
+  position: absolute;
+  left: -190px;
+  bottom: -100px;
+  z-index: 3;
+}
+
+.kaki-kanan {
+  background-color: white;
+  width: 130px;
+  height: 130px;
+  border: 60px solid rgb(34, 34, 34);
+  border-radius: 500px;
+  position: absolute;
+  right: -190px;
+  bottom: -100px;
+  z-index: 3;
+}
